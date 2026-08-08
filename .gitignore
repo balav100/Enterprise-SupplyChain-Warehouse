@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+airflow.cfg
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# PostgreSQL
+*.sql.backup
+*.dump
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Data Files (keep only sample data)
+data/raw/
+data/intermediate/
+data/processed/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.tmp
+*.bak
