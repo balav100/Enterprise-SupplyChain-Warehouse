@@ -444,18 +444,6 @@ Services:
 
 ---
 
-# CI/CD
-
-GitHub Actions automatically:
-
-* Validate ETL scripts
-* Execute data quality checks
-* Validate project structure
-* Build Docker images
-* Verify pipeline integrity
-
----
-
 # Business Impact
 
 This project demonstrates how modern organizations can transform raw operational supply chain data into a centralized analytics platform capable of supporting:
@@ -479,7 +467,6 @@ This project demonstrates how modern organizations can transform raw operational
 * Built a custom **Data Quality Validation Framework**
 * Created interactive executive dashboards using **Streamlit**
 * Containerized infrastructure using **Docker**
-* Implemented CI/CD using **GitHub Actions**
 
 ---
 
